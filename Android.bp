@@ -360,6 +360,7 @@ android_app_import {
     apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
     overrides: [
         "Aperture",
+        "Camera2",
         "Flash",
     ],
     certificate: "platform",
