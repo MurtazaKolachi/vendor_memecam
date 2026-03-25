@@ -1,0 +1,1039 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "device/xiaomi/camera",
+        "vendor/xiaomi/apollo",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_algoup_jni.xiaomi",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so",
+            ],
+            shared_libs: [
+                "libgui_shim_miuicamera",
+                "libvndksupport",
+                "libcamera_client",
+                "libcamera_metadata",
+                "libgui",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_mianode_jni.xiaomi",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so",
+            ],
+            shared_libs: [
+                "libgui_shim_miuicamera",
+                "libvndksupport",
+                "libcamera_client",
+                "libcamera_metadata",
+                "libgui",
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdoc_photo",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libdoc_photo.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libOpenCL",
+                "libjnigraphics",
+                "libc",
+                "libz",
+                "libdl",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdoc_photo_c++_shared",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libdoc_photo_c++_shared.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgallery_arcsoft_dualcam_refocus",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libgallery_arcsoft_dualcam_refocus.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgallery_arcsoft_portrait_lighting",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libgallery_arcsoft_portrait_lighting.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libarcsoft_portrait_lighting_c",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgallery_arcsoft_portrait_lighting_c",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libgallery_arcsoft_portrait_lighting_c.so",
+            ],
+            shared_libs: [
+                "libOpenCL",
+                "liblog",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgallery_mpbase",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libgallery_mpbase.so",
+            ],
+            shared_libs: [
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmibokeh_gallery",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libmibokeh_gallery.so",
+            ],
+            shared_libs: [
+                "libOpenCL",
+                "liblog",
+                "libz",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librefocus",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/librefocus.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libarcsoft_dualcam_refocus",
+                "libarcsoft_portrait_lighting",
+                "libjnigraphics",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librefocus_mibokeh",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/librefocus_mibokeh.so",
+            ],
+            shared_libs: [
+                "libmibokeh_gallery",
+                "libjnigraphics",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.metadatautils",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcom.xiaomi.metadatautils.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libcom.xiaomi.pluginutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcom.xiaomi.metadatautils.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libcom.xiaomi.pluginutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcom.xiaomi.pluginutils",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcom.xiaomi.pluginutils.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcom.xiaomi.pluginutils.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hardware.campostproc@1.0",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/vendor.xiaomi.hardware.campostproc@1.0.so",
+            ],
+            shared_libs: [
+                "android.hardware.camera.common@1.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so",
+            ],
+            shared_libs: [
+                "android.hardware.camera.common@1.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.bodyslim",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.bodyslim.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libarcsoft_bodyslim",
+                "libmialgo_utils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.capbokeh",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.capbokeh.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmpbase",
+                "libarcsoft_beautyshot",
+                "libarcsoft_dualcam_refocus",
+                "libarcsoft_portrait_lighting",
+                "libarcsoft_portrait_lighting_c",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.dc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.dc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libarcsoft_distortion_correction",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.depurple",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.depurple.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhardware",
+                "libnativewindow",
+                "libcom.xiaomi.pluginutils",
+                "libalCFR",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.hdr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.hdr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libxmi_high_dynamic_range",
+                "libmpbase",
+                "libMIAIHDRhvx_interface",
+                "libxmi_hdr_checker",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.ldc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.ldc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhardware",
+                "libnativewindow",
+                "libcom.xiaomi.pluginutils",
+                "libalhLDC",
+                "libalAILDC",
+                "libmibokeh_855",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.memcpy",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.memcpy.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.miaideblur",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.miaideblur.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmiai_deblur",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.miaiie",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.miaiie.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmialgo_ie_capture",
+                "libmialgo_utils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.mibokeh",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.mibokeh.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libhardware",
+                "libnativewindow",
+                "libcom.xiaomi.pluginutils",
+                "libmibokeh_855",
+                "libarcsoft_portrait_lighting",
+                "libarcsoft_portrait_lighting_c",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.miflaw",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.miflaw.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libflaw",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.mifragment",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.mifragment.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmibokeh_855",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.misegment",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.misegment.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmibokeh_855",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.skinbeautifier",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.skinbeautifier.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libmialgo_utils",
+                "libarcsoft_beautyshot",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.sr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.sr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libHalSuperSensorServer",
+                "libSuperSensor",
+                "libSuperSensorCPU",
+                "libsdk_sr",
+                "lib_sr_models",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.supernight",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.supernight.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libbeauty_face_interface",
+                "libmiai_portraitsupernight",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.xiaomi.plugin.superportrait",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.xiaomi.plugin.superportrait.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcom.xiaomi.pluginutils",
+                "libarcsoft_superportrait",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+android_app_import {
+    name: "CameraExtensionsProxy",
+    owner: "xiaomi",
+    apk: "proprietary/system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "CameraTools",
+    owner: "xiaomi",
+    apk: "proprietary/system/app/CameraTools/CameraTools.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "MiuiCamera",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
+    overrides: [
+        "Camera2",
+        "Snap",
+    ],
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+android_app_import {
+    name: "MiuiExtraPhoto",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+dex_import {
+    name: "com.xiaomi.sensor",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system/framework/com.xiaomi.sensor.jar",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "cameraserver",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/bin/cameraserver",
+            ],
+            shared_libs: [
+                "libcameraservice",
+                "liblog",
+                "libutils",
+                "libui",
+                "libgui",
+                "libbinder",
+                "libhidlbase",
+                "android.hardware.camera.common@1.0",
+                "android.hardware.camera.provider@2.4",
+                "android.hardware.camera.provider@2.5",
+                "android.hardware.camera.provider@2.6",
+                "android.hardware.camera.provider@2.7",
+                "android.hardware.camera.device@1.0",
+                "android.hardware.camera.device@3.2",
+                "android.hardware.camera.device@3.4",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+}
