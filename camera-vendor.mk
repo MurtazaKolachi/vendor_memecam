@@ -23,9 +23,6 @@ PRODUCT_PACKAGES += \
     libmibokeh_gallery \
     librefocus \
     librefocus_mibokeh \
-    libcom.xiaomi.metadatautils \
-    libcom.xiaomi.pluginutils \
-    vendor.xiaomi.hardware.campostproc@1.0 \
     com.xiaomi.plugin.bodyslim \
     com.xiaomi.plugin.capbokeh \
     com.xiaomi.plugin.dc \
@@ -35,7 +32,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.memcpy \
     com.xiaomi.plugin.miaideblur \
     com.xiaomi.plugin.miaiie \
-    com.xiaomi.plugin.mibokeh \
     com.xiaomi.plugin.miflaw \
     com.xiaomi.plugin.mifragment \
     com.xiaomi.plugin.misegment \
