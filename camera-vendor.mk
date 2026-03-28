@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/camera
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/camera/proprietary/system/etc/init/cameraserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/cameraserver.rc \
     vendor/xiaomi/camera/proprietary/system/etc/permissions/com.xiaomi.sensor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/camera/proprietary/vendor/camera/mimoji/data.zip:$(TARGET_COPY_OUT_VENDOR)/camera/mimoji/data.zip \
     vendor/xiaomi/camera/proprietary/vendor/camera/mimoji/model2.zip:$(TARGET_COPY_OUT_VENDOR)/camera/mimoji/model2.zip
